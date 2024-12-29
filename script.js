@@ -1,5 +1,6 @@
 function firstWord(s) {
   // your code here
+	s=s.trim();
 	let str=""
 	for(let i=0;i<s.length;i++){
 		if(s[i]==" ")
@@ -11,7 +12,7 @@ function firstWord(s) {
 	return str
 }
 
-// Do not change the code below
+// Do not change the code belo
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
